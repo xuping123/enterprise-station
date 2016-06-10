@@ -1,0 +1,20 @@
+[ 2016-06-04T02:16:53+08:00 ] ::1 /111/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-06-04T02:16:54+08:00 ] ::1 /111/index.php?g=&m=AdminPost&a=add&term=
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-06-04T02:17:14+08:00 ] ::1 /111/index.php?g=&m=AdminPost&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `c121mf_users` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `c121mf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `c121mf_posts` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `c121mf_terms` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `c121mf_term_relationships` [ RunTime:0.0110s ]
+SQL: INSERT INTO `c121mf_posts` (`post_title`,`post_keywords`,`post_source`,`post_excerpt`,`post_modified`,`post_status`,`istop`,`recommended`,`post_content`,`post_date`,`post_author`,`smeta`) VALUES ('fewfwef','fewfweffewfweffewfweffewfweffewfweffewfweffewfwef','fewfweffewfweffewfweffewfweffewfweffewfwef','fewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfwef','2016-06-04 02:16:54','1','0','0','<p>fewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfweffewfwef</p>','2016-06-04 02:17:14','1','{\"thumb\":\"20160604\\/5751c9a7c5738.jpg\"}') [ RunTime:0.0000s ]
+SQL: INSERT INTO `c121mf_term_relationships` (`term_id`,`object_id`) VALUES ('1','1') [ RunTime:0.0000s ]
+
